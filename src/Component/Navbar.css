@@ -1,0 +1,74 @@
+/* Navbar Container */
+.navbar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(134, 132, 132, 0.545); /* Grey transparent background */
+    height: 60px;
+  }
+  
+  /* Logo */
+  .navbar-logo {
+    padding: 10px;
+  }
+  
+  /* Logo Image */
+  .navbar-logo img {
+   
+    top: 0;
+    width: 100px;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    filter: contrast(0.7);
+    height: 60px;
+  }
+  
+  /* Navigation Links */
+  .navbar-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    margin: -40px 0px 0px 900px
+  }
+  
+  /* Individual Link */
+  .navbar-link {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* Cart Icon */
+  .navbar-cart-icon {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Cart Icon Image */
+  .navbar-cart-icon svg {
+    font-size: 20px;
+  }
+  
+  /* Hover Styles */
+  .navbar-link:hover,
+  .navbar-cart-icon:hover {
+    opacity: 0.7;
+  }
+  
+  .spinner {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: conic-gradient(#0000 10%, #0056b3);
+    -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 9px),#000 0);
+    animation: spinner-zp9dbg 1s infinite linear;
+ }
+ 
+ @keyframes spinner-zp9dbg {
+    to {
+       transform: rotate(1turn);
+    }
+ }
